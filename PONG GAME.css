@@ -1,0 +1,14 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    text-align: centre;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
