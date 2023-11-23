@@ -1,0 +1,11 @@
+#sty{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#showotp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
