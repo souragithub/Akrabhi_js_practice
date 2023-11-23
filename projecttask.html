@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>task</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+</body>
+<script>
+    let intervalId;
+    const started = function(){
+    intervalId = setInterval(function(){
+        console.log("pritam");
+    },1000)}
+
+    document.querySelector("#start").
+    addEventListener('click',started);
+
+    const stopped = function(){
+        clearInterval(intervalId);
+        console.log("stopped");
+    }
+
+
+    document.querySelector("#stop").
+    addEventListener('click',stopped);
+    
+</script>
+</html>
